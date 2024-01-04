@@ -1,0 +1,186 @@
+/* -------- content wrapper ---------- */
+.home-page-content-wrapper {
+    max-width: 1250px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+/* ---------- slider blog ----------- */
+.slider-blog-wrapper {
+    margin: auto;
+}
+
+/*----------- brand blog ---------- */
+.feature-brand-content-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* text message */
+.feature-brand-content-wrapper .text-brand-blog {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+/* brand icon blog */
+.icons-brand-content-wrapper {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.border-linear {
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(to right, #fff 50%, #000 100%);
+}
+
+.icons-brand-content-wrapper img {
+    width: 50px;
+    justify-content: space-between;
+}
+
+/* ------------ fashion image blog ------------ */
+.fashion-image-blog-wrapper {
+    margin-top: 25px;
+}
+
+.fashion-image {
+    width: 100%;
+}
+
+.fashion-image img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* ---------- new arrivals blog wrapper ---------- */
+.new-arrivals-product-content-wrapper {
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.new-arrival-text {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.new-arrival-text img {
+    width: 35px;
+    margin-left: 10px;
+}
+
+.new-arrival-border {
+    width: 100%;
+    margin-bottom: 3px;
+    border-bottom: 1px solid rgb(129, 129, 129);
+}
+
+/* --------------------- best selling product blog ------------- */
+.best-selling-product-blog{
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* -------------------- subscribe blog ---------------- */
+.subscribe-blog-wrapper {
+    background-color: rgb(221, 221, 221);
+}
+
+.brand-show-wrapper {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.w-40 {
+    width: 50px;
+    margin-left: 50px;
+}
+
+.brand-show-wrapper img {
+    width: 100%;
+}
+
+/* background image subscribe */
+.subscribe-background-image {
+    background-image: url("../images/icons/subscribe.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.subscribe-background-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(66, 66, 66, 0.5);
+    /* Adjust the color and transparency */
+}
+
+.subscribe-blog-content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-40%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-subscribe {
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+}
+
+/* subscribe btn */
+.subscribe-input-wrapper {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: row;
+    margin-bottom: 1.5em;
+    border: .5px solid rgb(121, 118, 118);
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+#subscribe {
+    border: none;
+    outline: none;
+    flex: 0 1 70%;
+    border-radius: 5px;
+    padding: 10px 10px 0 10px;
+}
+
+#subscribe-btn {
+    flex: 0 1 30%;
+    border: none;
+    outline: none;
+    color: white;
+    letter-spacing: 2px;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

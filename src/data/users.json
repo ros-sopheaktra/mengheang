@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "username": "nanh.bunsin",
+        "name": "NANH Bunsin",
+        "email": "bunsin@gmail.com",
+        "password": "bunsin@123",
+        "isLogin": false
+    },
+    {
+        "id": 2,
+        "username": "lina",
+        "name": "Lina",
+        "email": "lina@gmail.com",
+        "password": "lina@123",
+        "isLogin": false
+    },
+    {
+        "id": 3,
+        "username": "lyhor",
+        "name": "Lyhor",
+        "email": "lyhor@gmail.com",
+        "password": "lyhor@123",
+        "isLogin": false
+    },
+    {
+        "id": 4,
+        "username": "laing",
+        "name": "Laing",
+        "email": "laing@gmail.com",
+        "password": "laing@123",
+        "isLogin": false
+    },
+    {
+        "id": 5,
+        "username": "sopheaktra",
+        "name": "Sopheaktra",
+        "email": "sopkeaktra@gmail.com",
+        "password": "sopkeaktra@123",
+        "isLogin": false
+    }
+]
